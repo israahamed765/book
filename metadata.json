@@ -1,0 +1,6 @@
+{
+  "name": "Aura Planner",
+  "description": "A serene, modern daily focus planner built with a minimalist glassmorphism interface. Featuring task tracking, habit micro-trackers, dynamic timeline scheduler, gratitude log, and quick notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

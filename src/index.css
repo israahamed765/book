@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  /* Aura Planner Colors matching the material design file token inputs */
+  --color-primary: #5950b6;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #9d94ff;
+  --color-on-primary-container: #32258d;
+  --color-primary-fixed: #e4dfff;
+  --color-primary-fixed-dim: #c6c0ff;
+  --color-on-primary-fixed: #150066;
+  --color-on-primary-fixed-variant: #41369d;
+  
+  --color-secondary: #3a6758;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #bcedda;
+  --color-on-secondary-container: #406d5e;
+  --color-secondary-fixed: #bcedda;
+  --color-secondary-fixed-dim: #a1d1bf;
+  --color-on-secondary-fixed: #002118;
+  --color-on-secondary-fixed-variant: #214f41;
+
+  --color-tertiary: #894f38;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #d69075;
+  --color-on-tertiary-container: #5a2a15;
+  --color-tertiary-fixed: #ffdbce;
+  --color-tertiary-fixed-dim: #ffb599;
+  --color-on-tertiary-fixed: #360f01;
+  --color-on-tertiary-fixed-variant: #6d3823;
+
+  --color-background: #faf9f7;
+  --color-on-background: #1a1c1b;
+  
+  --color-surface: #faf9f7;
+  --color-surface-dim: #dadad8;
+  --color-surface-bright: #faf9f7;
+  
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f3f1;
+  --color-surface-container: #efeeec;
+  --color-surface-container-high: #e9e8e6;
+  --color-surface-container-highest: #e3e2e0;
+  
+  --color-on-surface: #1a1c1b;
+  --color-on-surface-variant: #474552;
+  --color-inverse-surface: #2f3130;
+  --color-inverse-on-surface: #f1f1ef;
+  
+  --color-outline: #787583;
+  --color-outline-variant: #c8c4d4;
+  --color-surface-tint: #5950b6;
+}
+
+/* Custom visual utilities */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 99px;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.08) transparent;
+}
